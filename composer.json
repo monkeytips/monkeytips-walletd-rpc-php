@@ -1,15 +1,15 @@
 {
-  "name": "turtlecoin/turtlecoin-walletd-rpc-php",
-  "description": "A PHP wrapper for the TurtleCoin walletd daemon RPC interface",
+  "name": "monkeytips/monkeytips-walletd-rpc-php",
+  "description": "A PHP wrapper for the monkeytips walletd daemon RPC interface",
   "keywords": [
-    "TurtleCoin",
+    "monkeytips",
     "PHP"
   ],
   "license": "MIT",
   "authors": [
     {
-      "name": "Tim McLeod",
-      "email": "tim@timmcleod.com"
+      "name": "crappyrules",
+      "email": "crappyrules@protonmail.com"
     }
   ],
   "require": {
@@ -21,7 +21,7 @@
   },
   "autoload": {
     "psr-4": {
-      "TurtleCoin\\": "src/TurtleCoin"
+      "monkeytips\\": "src/monkeytips"
     }
   },
   "autoload-dev": {

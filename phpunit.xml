@@ -11,7 +11,7 @@
          syntaxCheck="true"
          verbose="true">
     <testsuites>
-        <testsuite name="TurtleCoin Walletd API Test Suite">
+        <testsuite name="monkeytips Walletd API Test Suite">
             <directory suffix="Test.php">tests</directory>
         </testsuite>
     </testsuites>

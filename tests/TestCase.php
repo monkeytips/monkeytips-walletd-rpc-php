@@ -9,7 +9,7 @@ use stdClass;
 
 abstract class TestCase extends \PHPUnit\Framework\TestCase
 {
-    const ADDRESS = 'TRTLxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+    const ADDRESS = 'dicKTiPZxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
     const VIEW_SECRET_KEY = '0000000000000000000000000000000000000000000000000000000000000000';
     const SPEND_PUBLIC_KEY = '0000000000000000000000000000000000000000000000000000000000000000';
     const SPEND_SECRET_KEY = '0000000000000000000000000000000000000000000000000000000000000000';

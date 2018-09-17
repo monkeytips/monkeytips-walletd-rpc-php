@@ -1,6 +1,6 @@
 <?php
 
-namespace TurtleCoin\Walletd;
+namespace monkeytips\Walletd;
 
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\ClientInterface;
@@ -20,13 +20,13 @@ class Client
     protected $rpcHost = 'http://127.0.0.1';
 
     /** @var int */
-    protected $rpcPort = 8070;
+    protected $rpcPort = 8420;
 
     /** @var string */
     protected $rpcPassword = 'test';
 
     /**
-     * Wrapper for TurtleCoin walletd JSON-RPC interface.
+     * Wrapper for monkeytips walletd JSON-RPC interface.
      *
      * @param array $config Configuration options
      */
@@ -582,7 +582,7 @@ class Client
     }
 
     /**
-     * Retrieves the address, and fee for the node that the turtle-service instance is connected to.
+     * Retrieves the address, and fee for the node that the walletd instance is connected to.
      * This may be null, for example if you are using your own local node. This fee will be sent to
      * the owners address on each sendTransaction() and sendDelayedTransaction() request automatically.
      * Note that it does not apply to sendFusionTransaction().

@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use TurtleCoin\Walletd;
+use monkeytips\Walletd;
 
 class ConfigureWalletdClientTest extends TestCase
 {
@@ -12,7 +12,7 @@ class ConfigureWalletdClientTest extends TestCase
         $walletd->configure([]);
         $this->assertEquals([
             'rpcHost'     => 'http://127.0.0.1',
-            'rpcPort'     => 8070,
+            'rpcPort'     => 8420,
             'rpcPassword' => 'test',
         ], $walletd->config());
     }

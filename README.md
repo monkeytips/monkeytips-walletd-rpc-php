@@ -4,11 +4,11 @@
 
 # Monkeytips Walletd RPC PHP
 
-Monkeytips Walletd RPC PHP is a PHP wrapper for the TurtleCoin walletd JSON-RPC interface.
+Monkeytips Walletd RPC PHP is a PHP wrapper for the monkeytips walletd JSON-RPC interface.
 
 ---
 
-1) [Install TurtleCoin Walletd RPC PHP](#install-turtlecoin-walletd-rpc-php)
+1) [Install monkeytips Walletd RPC PHP](#install-monkeytips-walletd-rpc-php)
 1) [Methods](#methods)
 1) [Examples](#examples)
 1) [License](#license)
@@ -57,7 +57,7 @@ composer require monkeytips/monkeytips-walletd-rpc-php
 ## Examples
 
 ```php
-use TurtleCoin\Walletd;
+use monkeytips\Walletd;
 
 $walletd = new Walletd\Client();
 
@@ -65,7 +65,7 @@ $response = $walletd->getBalance($walletAddress);
 ```
 
 ```php
-use TurtleCoin\Walletd;
+use monkeytips\Walletd;
 
 $config = [
     'rpcHost'     => 'http://127.0.0.1',
@@ -80,8 +80,8 @@ $json = $walletd->getBalance($walletAddress)->getBody()->getContents();
 echo $json;
 
 > {"id":0,"jsonrpc":"2.0","result":["availableBalance":100,"lockedAmount":50]}
-``` 
+```
 
 ## License
 
-TurtleCoin Walletd RPC PHP is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+monkeytips Walletd RPC PHP is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
