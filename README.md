@@ -1,14 +1,13 @@
-<p align="center"><a href="https://turtlecoin.lol" target="_blank" style="max-width:50%;"><img src="https://user-images.githubusercontent.com/34389545/35821974-62e0e25c-0a70-11e8-87dd-2cfffeb6ed47.png"></a></p>
+<p align="center"><a href="http://monkeytips.top" target="_blank" style="max-width:50%;"><img src="https://avatars3.githubusercontent.com/u/40376113?s=200&v=4"></a></p>
 
 ---
 
-# TurtleCoin Walletd RPC PHP
+# Monkeytips Walletd RPC PHP
 
-TurtleCoin Walletd RPC PHP is a PHP wrapper for the TurtleCoin walletd JSON-RPC interface.
+Monkeytips Walletd RPC PHP is a PHP wrapper for the TurtleCoin walletd JSON-RPC interface.
 
 ---
 
-1) [About TurtleCoin](#about-turtlecoin)
 1) [Install TurtleCoin Walletd RPC PHP](#install-turtlecoin-walletd-rpc-php)
 1) [Methods](#methods)
 1) [Examples](#examples)
@@ -16,23 +15,14 @@ TurtleCoin Walletd RPC PHP is a PHP wrapper for the TurtleCoin walletd JSON-RPC 
 
 ---
 
-## About TurtleCoin
 
-TurtleCoin is a fun, fast, and easy way to send money to friends and businesses.
 
-1) **Fast Transactions**: TurtleCoin is creating blocks every 30 seconds, as opposed to every 10 minutes. Your money travels 20x faster on TurtleCoin than on Bitcoin or BitcoinCash.
-1) **Privacy**: TurtleCoin has the same privacy features you'll find in Monero and Aeon. Every transaction is private unless you choose to make it public.
-1) **Easy To Use**: We support almost every OS, even on mobile you can make a secured paper-wallet for free, and get started with TurtleCoin in under 5 minutes.
-1) **Easy To Mine**: TurtleCoin comes with its own basic CPU miner, but you can also use any Monero mining software you're used to if you'd rather use GPU's or mining pools. We recommend XMR-Stak Unified Miner.
-1) **Community**: The TurtleCoin community is very welcoming to all users and developers. You won't get shouted at when things break, and we welcome critiques of our work. Please join us in our [Discord Chat](http://chat.turtlecoin.lol).
-1) **Support**: We are growing a community of developers and testers in our GitHub meta-forum. You can help by testing software and submitting bug reports, or even just cheering us on from the sidelines.
-
-## Install TurtleCoin Walletd RPC PHP
+## Install Monkeytips Walletd RPC PHP
 
 This package requires PHP >=7.1.3. Require this package with composer:
 
 ```
-composer require turtlecoin/turtlecoin-walletd-rpc-php
+composer require monkeytips/monkeytips-walletd-rpc-php
 ```
 
 ## Methods
